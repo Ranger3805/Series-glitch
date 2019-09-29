@@ -7,6 +7,7 @@ module.exports = {
         description: "Bans a user from the guild!",
         usage: " <@user> <reason>",
         category: "moderation",
+        setup: "Permissions Required: Manage Roles or Administrator. Channel Required: \`modlogs\`",
         accessableby: "Administrators",
         aliases: ["b", "banish", "remove"]
     },

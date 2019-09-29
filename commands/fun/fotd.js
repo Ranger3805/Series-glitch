@@ -6,11 +6,14 @@ module.exports = {
         description: "Fact of the day command",
         usage: " <text>",
         category: "fun",
+        setup: "Channel Required: `\❕》fotd\` premission Required: `Administrator or FOTD Access role.`",
         accessableby: "Staff",
         aliases: ["fact"]
     },
     run: async (bot, message, args) => {
       if(!message.member.hasPermission("ADMINISTRATOR")) return;
+      let role = message.member.roles.some(role => role.name === 'FOTD Access')
+      if (!role) return message.channel.send("You can't do a fotd!");
       const sayMessage = args.join(" ");
       message.delete().catch();
 

@@ -7,6 +7,7 @@ module.exports = {
         description: "Kick a user from the guild!",
         usage: " <@user> <reason>",
         category: "moderation",
+        setup: "Permissions Required: Manage Roles or Administrator. Channel Required: \`modlogs\`",
         accessableby: "Moderator",
         aliases: ["k"]
     },

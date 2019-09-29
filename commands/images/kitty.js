@@ -8,6 +8,7 @@ config: {
     name: "kitty",
     description: "sends a picture of a cat!",
     usage: "",
+    setup: "",
     category: "images",
     accessableby: "Members",
     aliases: ["cat"]

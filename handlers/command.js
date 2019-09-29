@@ -8,5 +8,5 @@
             if (pull.config.aliases) pull.config.aliases.forEach(a => bot.aliases.set(a, pull.config.name));
           };
         };
-        ["fun", "images", "miscellaneous", "moderation", "owner", "ticket related commands", "application related commands", "music"].forEach(x => load(x));
+        ["fun", "images", "bot", "moderation", "owner", "tickets", "music", "server", "user"].forEach(x => load(x));
 };

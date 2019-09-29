@@ -8,6 +8,7 @@ module.exports = {
         usage: " <@user> <@role> <reason>",
         category: "moderation",
         accessableby: "Moderators",
+        setup: "Permissions Required: Manage Roles or Administrator. Channel Required: \`modlogs\`",
         aliases: ["rr", "roleremove"]
     },
     run: async (bot, message, args) => {

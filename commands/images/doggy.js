@@ -7,6 +7,7 @@ module.exports = {
         name: "dog",
         description: "Sends a picture of a dog!",
         usage: "",
+        setup: "",
         category: "images",
         accessableby: "Members",
         aliases: ["doggo", "puppy"]

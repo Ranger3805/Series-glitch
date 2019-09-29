@@ -5,6 +5,7 @@ module.exports = {
         usage: " <user> <text>",
         category: "miscellaneous",
         accessableby: "Members",
+        setup: "",
         aliases: ["directmessage"]
     },
   run: async (bot, message, args) => {

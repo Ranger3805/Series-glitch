@@ -7,6 +7,7 @@ config: {
     description: "reports a user of the guild",
     category: "moderation",
     usage: " <@user> <reason>",
+    setup: "Channel Required: \`reports\`",
     accessableby: "Members",
 },
 run: async (bot, message, args) => {

@@ -6,6 +6,7 @@ module.exports = {
         description: "Question  of the day command",
         usage: " <text>",
         category: "fun",
+        setup: "Channel Required: `\❓》qotd\`",
         accessableby: "Staff",
         aliases: ["question"]
     },

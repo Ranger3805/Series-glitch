@@ -8,6 +8,7 @@ module.exports= {
         usage: " <name>",
         category: "music",
         accessableby: "Members",
+        setup: "",
         aliases: []
     },
     run: async (bot, message, args, ops) => {

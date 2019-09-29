@@ -8,6 +8,7 @@ module.exports = {
         usage: " <userID> <reason>",
         category: "moderation",
         accessableby: "Administrators",
+        setup: "Permissions Required: Ban Members or Administrator. Channel Required: \`modlogs\`",
         aliases: ["ub", "unbanish"]
     },
     run: async (bot, message, args) => {

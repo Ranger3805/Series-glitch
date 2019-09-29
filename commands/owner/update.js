@@ -28,4 +28,4 @@ module.exports = {
 
       announcementschannel.send(botEmbed);
    }
- }
+}

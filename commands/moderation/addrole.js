@@ -7,6 +7,7 @@ module.exports= {
         description: "Adds a role to a member of the guild!",
         usage: " <@user> <@role> <reason>",
         category: "moderation",
+        setup: "Permissions Required: Manage Roles or Administrator. Channel Required: \`modlogs\`",
         accessableby: "Moderators",
         aliases: ["ar", "roleadd"]
     },

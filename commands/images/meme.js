@@ -7,6 +7,7 @@ module.exports = {
         name: "meme",
         description: "Sends a meme from a website!",
         usage: "",
+        setup: "",
         category: "images",
         accessableby: "Members",
     },
