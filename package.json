@@ -20,7 +20,7 @@
     "fs": "^0.0.2",
     "get-youtube-id": "^1.0.1",
     "google": "^2.1.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "ms": "^2.1.2",
     "node-fetch": "^2.6.0",
     "opusscript": "0.0.7",
